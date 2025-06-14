@@ -19,7 +19,7 @@
   #v(0.6em)
   #text(size: 9.5pt)[
     Belém - PA, 66040105, Brazil \
-    +55 (16) 99361-0234 | #link("mailto:adran.carnavale@gmail.com")[adran.carnavale\@gmail.com] \
+    +55 (16) 99361-0234 | #link("mailto:adran@hey.com")[adran\@hey.com] \
     #link("https://crnvl96.dev")[crnvl96.dev] | #link("https://linkedin.com/in/adrancarnavale")[linkedin.com/in/adrancarnavale] | #link("https://github.com/crnvl96")[github.com/crnvl96]
   ]
 ]
