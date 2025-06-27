@@ -7,7 +7,7 @@
 // Helper function for section titles
 #let section_title(title_str) = {
   v(1.2em)
-  line(length: 100%, stroke: 0.5pt + luma(150)) // Softer line color
+  line(length: 100%, stroke: 0.5pt + luma(150))
   v(0.5em)
   text(weight: "bold", size: 14pt, title_str)
   v(0.5em)
@@ -26,32 +26,22 @@
 
 // --- Summary ---
 #section_title("Summary")
-Programmer with professional experience in Javascript and Python. Passionate about building well-crafted, simple, and valuable software solutions. Eager to contribute with discipline, adaptability, and a collaborative spirit to a team focused on product quality and craftsmanship. Seeking role to learn, grow, and improve technical skills.
+Fullstack developer with professional experience in Javascript and Python, passionate about building well-crafted, simple, and valuable software solutions. Disciplined, adaptable, and collaborative, I seek opportunities to contribute to teams focused on product quality and technical excellence.
 
 // --- Experience ---
 #section_title("Experience")
-#text(weight: "bold")[Programmer] \
-_Serena Energia_ - São Paulo, Brazil (#text(style: "italic")[07/22 - Present])
+#text(weight: "bold")[Software Developer] \
+_Serena Energia_ – São Paulo, Brazil (#text(style: "italic")[07/22 – Present])
 #set list(indent: 1em, body-indent: 1.5em, marker: [•])
-- Planned, developed and mantained the company's billing system, currently with more than 10.000 customers, using NestJS and React. the development process included modeling the database, API, integration sytems, frontend architecture, documentation, testing, background jobs, events, and scalability.
-- Developed a complete design system, mostly with tailwindcss, to ensure a consistent, performant and acessible frontent UI over all the applicationg that used it.
-- Created and managed AWS Lambda functions with Python, mostly to automate and provide new resourses to tasks that before were done by hand. The principal delivers involve document management in Sharepoint, and building an integration layer with Microsoft Dynamics CRM.
-- Implemented productivity tools for the team using AI frameworks, such as Langchain and CrewAI. The main delivers include the development of an OCR with CrewAI and Docling, and the creation and maintenance of a customer's selling journey workflow, powered by N8N.
-
-// --- Skills ---
-#section_title("Skills")
-
-#grid(
-  columns: (auto, 1fr),
-  column-gutter: 1.5em,
-  row-gutter: 0.5em,
-  [ #text(weight: "bold")[Languages] ],
-  [ JavaScript, Python, Ruby ],
-  [ #text(weight: "bold")[Cloud] ],
-  [ AWS ],
-  [ #text(weight: "bold")[Tools] ],
-  [ React, NodeJS, Tailwindcss, NestJS, Docker, NestJS, FastAPI, Rails ]
-)
+- Planned, developed, and maintained the company's billing system, serving 10,000+ customers, using NestJS and React. Responsible for database modeling, APIs, integration systems, frontend architecture, documentation, testing, background jobs, events, and scalability.
+- Developed design systems, mainly with Tailwindcss, ensuring consistent, high-performance, and accessible interfaces across applications.
+- Created and managed AWS Lambda functions with Python to automate and deliver new features, including document management in Sharepoint and integration with Microsoft Dynamics CRM.
+- Implemented productivity tools for the team using AI frameworks like Langchain and CrewAI, including OCR solutions with CrewAI and Docling, and customer sales journey automation via N8N.
+- Worked on microservices architecture based on DDD, contributing to the definition of contexts, domain integration, and the application of best practices for scalability and maintainability.
+- Developed and maintained automated tests (unit, integration, and end-to-end) to ensure application quality and robustness, using Jest, Pytest, Supertest, and Playwright, as well as promoting reliable CI/CD pipelines.
+- Containerized applications with Docker, standardizing development environments, automated testing, and production deployment.
+- Modeled, administrated, and optimized PostgreSQL databases, including integration routines.
+- Developed integrations with third-party systems, especially via webhooks, using AWS services such as API Gateway, SQS/SNS, Lambda, and DynamoDB to ensure data consistency and idempotency in distributed flows.
 
 // --- Education ---
 #section_title("Education")
@@ -61,11 +51,11 @@ _Serena Energia_ - São Paulo, Brazil (#text(style: "italic")[07/22 - Present])
   column-gutter: 1.5em,
   row-gutter: 1em,
   [ #text(style: "italic")[2024] ],
-  [ #text(weight: "bold")[Postgraduation] \ _Full Cycle Academy_ - São Paulo, SP ],
+  [ #text(weight: "bold")[Postgraduate] \ _Full Cycle Academy_ – São Paulo, SP ],
   [ #text(style: "italic")[2022] ],
-  [ #text(weight: "bold")[Web Development Course] \ _Trybe_ - São Paulo, SP ],
+  [ #text(weight: "bold")[Web Development Course] \ _Trybe_ – São Paulo, SP ],
   [ #text(style: "italic")[2019] ],
-  [ #text(weight: "bold")[Bachelor's Degree: Nautical Sciences] \ _EFOMM_ - Belém, PA ]
+  [ #text(weight: "bold")[Bachelor: Nautical Science] \ _EFOMM_ – Belém, PA ]
 )
 
 // --- Certifications ---
